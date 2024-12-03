@@ -11,7 +11,7 @@ const NavBar = () => {
   };
   return (
     <>
-      <header className="w-screen h-20 shadow-md flex items-center space-x-4 ">
+      <header className="w-screen h-20 shadow-md flex items-center space-x-4 fixed top-0 left-0 bg-white z-50 ">
         <div className="h-full  flex items-center w-96 hover:bg-gray-100 duration-200  ">
           <IonIcon
             onClick={handleToggle}

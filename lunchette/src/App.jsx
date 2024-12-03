@@ -1,13 +1,7 @@
 import NavBar from "./components/navbar";
-import SideBar from "./components/SideBar";
+import AgendaView from "./views/AgendaView";
 function App() {
-  return (
-    <>
-      <div className="w-screen h-screen">
-        <NavBar></NavBar>
-      </div>
-    </>
-  );
+  return <AgendaView></AgendaView>;
 }
 
 export default App;
