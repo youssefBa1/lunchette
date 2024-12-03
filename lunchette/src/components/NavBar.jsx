@@ -3,6 +3,7 @@ import { menuOutline, personOutline, helpCircleOutline } from "ionicons/icons";
 const NavBar = () => {
   return (
 <<<<<<< HEAD
+<<<<<<< HEAD
     <>
       <header className="w-screen h-20 shadow-md flex items-center space-x-4 fixed top-0 left-0 bg-white z-50 ">
         <div className="h-full  flex items-center w-96 hover:bg-gray-100 duration-200  ">
@@ -31,6 +32,8 @@ const NavBar = () => {
       <SideBar isCollapsed={isCollapsed}></SideBar>
     </>
 =======
+=======
+>>>>>>> parent of 3a8c8d2 (navbar + sidebar)
     <header className="w-screen h-20 shadow-md flex items-center space-x-4 ">
       <div className="h-full flex-1 flex items-center hover:bg-gray-100 duration-200  ">
         <IonIcon
@@ -54,6 +57,9 @@ const NavBar = () => {
         ></IonIcon>
       </div>
     </header>
+<<<<<<< HEAD
+>>>>>>> parent of 3a8c8d2 (navbar + sidebar)
+=======
 >>>>>>> parent of 3a8c8d2 (navbar + sidebar)
   );
 };
